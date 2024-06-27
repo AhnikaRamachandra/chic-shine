@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="icon" type="image/x-icon" href="jewelery/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/5c60adcfd2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div id="navbar">
+    <div class="logo"><img src="jewelery/logo.png" alt="" style="width: 200px;"></div>
+    <div class="nav" id="nav-bg">
+      <a href="index.html" id="se" class="an">Home</a>
+      <a href="bags.html"  id="se"class="an">Bags</a>
+      
+      <a href="accesories.html" id="se" class="an">Accessories</a>
+      <a href="dress.html" id="se" class="an">Dress</a>
+    </div>
+  </div>
+
+  <h1 class="head-cart" >Your Shopping Cart</h1>
+  <div id="cart">
+
+  </div>
+  <a id="check-a" href="thank.html" onclick="return checkCartBeforeCheckout()">
+    <button class="checkbtn" id="check-btns" type="button">Check out</button>
+</a>
+
+<script>
+    let popup = document.getElementById("check-btns");
+console.log(popup)
+    
+   
+</script>
+  <script src="cart.js"></script>
+</body>
+</html>

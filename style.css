@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Playwrite+SK:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+.shop{
+    background-color: #d6b291;
+    padding: 15px;
+}
+.icon{
+   display: flex;
+   justify-content: end;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.text-shop{
+    font-family: "Playwrite FR Moderne", cursive;
+   font-weight: 300;
+   font-size: 14px;
+   margin: 0 20px 0 10px;
+}
+.logo{
+    text-align: center;
+   margin: 0;
+   padding: 0;
+}
+.nav{
+    display: flex;
+   justify-content: center;
+  margin: 0;
+    
+}
+
+.an{
+    text-decoration: none;
+    color: black;
+ padding: 0 45px 0 45px;
+   font-family: "Playwrite FR Moderne", cursive;
+   margin-bottom: 15px;
+  
+}
+.an:hover{
+    color:#d6b291 ;
+    cursor: pointer;
+}
+
+.images{
+    height: 650px;
+    width: 80%;
+    background-size: cover;
+    
+}
+.content{
+    display: flex;
+    
+}
+.para{
+   text-align: center;
+   align-self: center;
+}
+
+.imag1{
+    background-image: url("jewelery/logg.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.up{
+    font-family: "Playwrite SK", cursive;
+    color: whitesmoke;
+
+}
+.down{
+    font-family: "Playwrite SK", cursive;
+    color: whitesmoke;
+}
+/* .gallery*/
+.container-grid{
+    display: grid;
+   
+   grid-auto-rows: 200px;
+   flex-basis: 50%;
+
+ 
+}
+
+
+#gridi-1{
+    grid-column: 1/5;
+    grid-row: 1/4;
+   margin: 10px 5px 5px 200px;
+   background-image: url("jewelery/img7.jpg");
+   background-size: cover;
+ 
+}
+#gridi-2{
+    grid-column: 5/9;
+    grid-row: 1/4;
+    margin: 10px 3px 5px 0px;
+    background-image: url("jewelery/g40.jpg");
+    background-size: cover;
+}
+#gridi-3{
+    grid-column: 1/5;
+    grid-row: 4/9;
+    margin-bottom: 5px;
+    background-image: url("jewelery/g13.jpg");
+    background-size: cover;
+}
+#gridi-4{
+    grid-column: 5/11;
+    grid-row: 4/9;
+    margin-bottom: 5px;
+    background-image: url("jewelery/g12.jpg");
+    background-size: cover;
+}
+#gridi-5{
+    grid-column: 1/4;
+    grid-row: 9/13;
+    margin-right: 5px;
+    background-image: url("jewelery/g44.jpg");
+    background-size: cover;
+}
+#gridi-6{
+    grid-column: 4/7;
+    grid-row: 9/13;
+    background-image: url("jewelery/g5.jpg");
+    background-size: cover;
+}
+#gridi-7{
+    margin-left: 5px;
+    grid-column: 7/11;
+    grid-row: 9/13;
+    background-image: url("jewelery/heels5.jpg");
+    background-size: cover;
+}
+
+/* product section */
+.headings{
+    font-family: "Playwrite FR Moderne", cursive;  
+    font-size: 14px;
+   font-weight: 400;
+   margin: 30px 0 10px 40px;
+   
+}
+.product{
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+}
+.products{
+    height: 400px;
+   margin: 15px;
+ display: flex;
+ flex-direction: column;
+
+}
+.image-product{
+    height: 300px;
+    width: 240px;
+    background-size: cover;
+    
+}
+.product-text
+{  font-family: "Playwrite FR Moderne", cursive;
+    margin: 10px;
+    text-align: center;
+}
+/* product sections */
+
+    hr {
+        margin-top: 40px;
+        height: 1px;
+        width: 72%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f5d1b0;
+    }
+    
+
+
+.heading2{
+    font-family: "Playwrite FR Moderne", cursive;  
+    font-size: 14px;
+   font-weight: 400;
+   margin: 15px 0px 15px 200px;
+}
+.container-insta{
+    display: flex;
+   gap: 20px;
+    justify-content: center;
+}
+.insta-img{
+    width: 300px;
+    height: 300px;
+    
+}
+#in1{
+ background-image: url("jewelery/heels12.jpg");   
+ background-size: cover;
+}
+#in2{
+    background-image: url("jewelery/bag29.jpg");   
+    background-size: cover;
+   }
+   #in3{
+    background-image: url("jewelery/g47.jpg");   
+    background-size: cover;
+   }
+.footer{
+    background-color: #c9ada7;
+    height: 430px;
+}
+.upper{
+  
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+}
+.main{
+    height:200px ;
+    width: 300px;
+ 
+    margin-top: 10px;
+ 
+}
+.contentinta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    
+    
+}
+.f{
+    color: white;
+    font-family: "Playwrite FR Moderne", cursive;
+   
+}
+#line{
+    border-right: 1px solid white;
+    height: 180px;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    margin-top: 0px;
+    height: 100px;
+    
+}
+.contentbottom{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.f:hover{
+    color:rgb(182, 158, 158) ;
+    cursor: pointer;
+}
+.btn{
+    padding: 10px 40px 10px 40px;
+    border: none;
+    background-color: #c9ada7;
+    font-family: "Playwrite FR Moderne", cursive;
+    border-radius: 5px;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: #d6b291;
+    color:rgb(109, 96, 96) ;
+    cursor: pointer;
+}

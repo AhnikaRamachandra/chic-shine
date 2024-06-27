@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="popup" id="popup">
+        <img src="heart2.jpg" alt="" srcset="" class="pop-img" width="100px">
+        <h2>Thank You</h2>
+        <p>Your Order will be delivered soon!</p>
+      <a href="cart.html"> <button type="button" onclick="clearCart()"  class="pop-btn"> Ok</button></a>
+      <script>
+        function clearCart() {
+            localStorage.removeItem('cart');
+        }
+    </script>
+       <script src="cart.js"></script>
+    </div>
+</body>
+</html>
